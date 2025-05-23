@@ -125,7 +125,7 @@ section > div{
   left: 50%;
   transform: translateX(-52%);
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 0.4em;
 
   display: var(--flex);
   justify-content: center;
@@ -162,7 +162,7 @@ section > div{
 	}
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 47.9em){
 
 	main{
 		min-width: 22rem;
@@ -263,7 +263,7 @@ section > div{
 }
 
 .mobile-share-text{
-	letter-spacing: 4px;
+	letter-spacing: 0.4em;
 	color: hsl(212, 23%, 69%);;
 }
 
