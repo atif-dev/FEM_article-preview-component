@@ -141,7 +141,7 @@ section > div{
   position: absolute;
   top: 100%;
   left: 50%;
-  margin-left: -5px;
+  margin-left: -0.5em;
   border-width: 10px;
   border-style: solid;
   border-color: hsl(217, 19%, 35%) transparent transparent transparent;
