@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+/*CSS reset*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root{
+	--pointFive: .5em;
+}
+
+body{
+	background: hsl(210, 46%, 95%);
+	font-family: "Manrope", sans-serif;
+}
+
+main{
+	min-height: 100vh;
+	display: grid;
+	place-content: center;
+	width: 60%;
+	min-width: 50rem;
+  margin: 0 auto;
+}
+
+article{
+	display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: auto auto;
+  background: white;
+  border-radius: var(--pointFive);
+}
+
+.drawers-img{
+	width: 100%;
+  height: 100%;
+  border-top-left-radius: var(--pointFive);
+  border-bottom-left-radius: var(--pointFive);
+  object-fit: cover;
+}
+
+.bruno-img{
+	width: 12%;
+  height: fit-content;
+  border-radius: 2em;
+}
+
+section{
+	margin: 0em 2.5em;
+  margin-top: 1.8em;
+  margin-bottom: 1.7rem;
+}
+
+.brief{
+	font-size: 1.5rem;
+	color: hsl(217, 19%, 35%);
+}
+
+.detail{
+	padding-top: var(--pointFive);
+  color: hsl(214, 17%, 51%);
+}
+
+/*select only direct children and not nested*/
+section > div{
+	display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.8em;
+}
+
+.bruno-info > div{
+	display: flex;
+  align-items: center;
+}
+
+.bruno-info > div p{
+	margin-left: 1em;
+  font-size: .9rem;
+}
+
+.share-circle{
+  padding: .6em 0em;
+  padding-left: .6em;
+  padding-right: var(--pointFive);
+  border-radius: 2em;
+  background: hsl(210, 46%, 95%);
+}
+
+.name{
+	font-weight: bold;
+	color: hsl(217, 19%, 35%);
+}
+
+.date{
+	color:hsl(212, 23%, 69%);
+}
+
+.share-circle:hover{
+	background: hsl(214, 17%, 51%);
+}
+
+.share-circle:hover svg path{
+	fill:#fff;
+}
+
+.tooltip {
+  position: relative;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 215px;
+  background-color: hsl(217, 19%, 35%);
+  color: hsl(212, 23%, 69%);
+  text-align: center;
+  border-radius: var(--pointFive);
+  padding: 1em 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 3.3em;
+  left: 50%;
+  transform: translateX(-50%);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  align-items: center;
+  font-size: .8rem;
+  cursor: pointer;
+  box-shadow: 0px 9px 16px 0px #a9a9a9;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: hsl(217, 19%, 35%) transparent transparent transparent;
+}
+
+@media only screen and (min-width: 1441px){
+
+	.brief{
+		font-size: 1.8vw;
+	}
+
+	.detail{
+		font-size: 1.2vw;
+	}
+
+	.name{
+		font-size: 1vw;
+	}
+}
+
+@media only screen and (max-width: 767px){
+
+	main{
+		min-width: 22rem;
+	}
+
+	article{
+		grid-template-columns: 1fr;
+    	grid-template-rows: auto auto;
+	}
+
+	.brief{
+		font-size: 1.0625rem;
+	}
+
+	.detail{
+		font-size: 0.875rem;
+	}
+
+	.drawers-img {
+		border-bottom-left-radius: unset;
+		border-top-right-radius: var(--pointFive);
+	}
+
+	.bruno-img {
+    width: 15%;
+  }
+
+  .date{
+  	font-size: .8rem;
+  }
+
+}
+
+@media (max-width: 915px) and (min-width: 766px){
+
+	article{
+		width: 39rem;
+	  height: 88%;
+	}
+
+	.drawers-img {
+		height: 88%;
+		object-fit: cover;
+	}
+
+	section{
+		margin-top: 1em;
+  	margin-bottom: 2.5rem;
+	}
+
+	.brief{
+		font-size: 1rem;
+	}
+
+	.detail{
+		font-size: .7rem;
+	}
+
+	.bruno-info > div p {
+		display: flex;
+  	flex-direction: column;
+	}
+
+	.bruno-img {
+		width:10%;
+	}
+
+	.name{
+	  font-size: .6rem;
+
+	}
+
+	.date{
+		font-size: .6rem;
+	}
+
+	.break{
+		display: none;
+	}
+
+}
+
+.mobile-share{
+	background: hsl(217, 19%, 35%);
+	display: flex;
+  justify-content: space-between;
+  padding: 1.3em 2.5em;
+  border-bottom-left-radius: var(--pointFive);
+  border-bottom-right-radius: var(--pointFive);
+  display: none;
+}
+
+.mobile-share div{
+	text-transform: uppercase;
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+
+.mobile-share-text{
+	letter-spacing: 4px;
+	color: hsl(212, 23%, 69%);;
+}
+
+.mobile-share-circle{
+	padding: 0.6em 0em;
+  padding-left: .6em;
+  padding-right: var(--pointFive);
+  border-radius: 2em;
+  background: hsl(214, 17%, 51%);
+}
+
+.share-circle:focus {
+	background: hsl(214, 17%, 51%);
+	outline:none;
+	fill:#fff;
+	border:none;
+}
+
+.share-circle:focus svg path{
+	fill:#fff;
+}
+
+
+a:focus{
+	outline: none;
+	border-bottom-style: dotted;
+  border-bottom-color: #b3b3b3;
+}
+
+
+
+
+
