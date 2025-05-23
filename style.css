@@ -196,7 +196,7 @@ section > div{
 
 }
 
-@media (max-width: 915px) and (min-width: 766px){
+@media (max-width: 57em) and (min-width: 48em){
 
 	article{
 		width: 39rem;
@@ -247,7 +247,6 @@ section > div{
 
 .mobile-share{
 	background: hsl(217, 19%, 35%);
-	display: var(--flex);
   justify-content: space-between;
   padding: 1.3em 2.5em;
   border-bottom-left-radius: var(--pointFive);
