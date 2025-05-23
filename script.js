@@ -4,16 +4,6 @@ const shareIconPath = document.querySelector(".share-icon path");
 const mobileShare = document.querySelector(".mobile-share");
 const brunoInfo = document.querySelector(".bruno-info");
 
-//Show tooltip by pressing space or enter.
- shareCircle.addEventListener("keydown", (event) =>{
-  
- if (event.key === 'Enter' || event.key === ' ') { //one space inside empty string is for space key
-    //event.preventDefault(); // Prevent scrolling on space key
-    toggleShare();
-  }
-
- });
-
  function toggleShare(){
 
   if(window.innerWidth <= 767){
