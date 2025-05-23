@@ -35,7 +35,7 @@ This is a solution to the [Article Preview Component on Frontend Mentor](https:/
 ### Links
 
 - Frontend Mentor solution url:  
-- Live Site URL:
+- Live Site URL: https://atif-dev.github.io/FEM_article-preview-component/
 
 ## My process
 
