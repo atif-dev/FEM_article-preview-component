@@ -29,8 +29,8 @@ This is a solution to the [Article Preview Component on Frontend Mentor](https:/
 
 ### Screenshots
 
-![PC View]()
-![Mobile view]()
+![PC View](https://github.com/atif-dev/FEM_article-preview-component/blob/main/screenshots/iPhone%208(375px%20width)%20.png?raw=true)
+![Mobile view](https://github.com/atif-dev/FEM_article-preview-component/blob/main/screenshots/iPhone%208(375px%20width)%20.png?raw=true)
 
 ### Links
 
