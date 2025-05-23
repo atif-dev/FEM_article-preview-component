@@ -55,10 +55,10 @@ This is a solution to the [Article Preview Component on Frontend Mentor](https:/
 - [CSS flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Nice visual representation to understand CSS flexbox. 
 - [Conquering Responsive Layouts](https://courses.kevinpowell.co/conquering-responsive-layouts) - This is nice short free course for learning responsiveness.
 - https://youtu.be/pJ0GPI7BMIs?si=yDHIb3L1jQYq-JDg
-- [Nice Guide about alt attribute of html img tag](https://axesslab.com/alt-texts/) - Find this useful guide after watching [Kevin Powell's video about accessibility] (https://youtu.be/pJ0GPI7BMIs?si=hjscnii9942umsjT)
+- [Nice Guide about alt attribute of html img tag](https://axesslab.com/alt-texts/) - Find this useful guide after watching [Kevin Powell's video about accessibility](https://youtu.be/pJ0GPI7BMIs?si=hjscnii9942umsjT)
 - [Learn CSS Grid the easy way](https://youtu.be/rg7Fvvl3taU?si=OeJGCoDQq0sy_FRK) - This is nice tutorial to understand css grid line numbers using inspection. 
 - [Check responsiveness](https://www.lambdatest.com/mobile-view-website) - NICE website for checking responsiveness and taking good looking screen shots.
-- [CSS Tooltip] (https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom) - CSS tooltip from w3schools.
+- [CSS Tooltip](https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom) - CSS tooltip from w3schools.
 - [ChatGPT](https://chat.openai.com/) - Nice to understand code and getting help related to code.
 
 
