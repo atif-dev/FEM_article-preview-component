@@ -121,7 +121,7 @@ section > div{
   padding: 1em 0;
   position: absolute;
   z-index: 1;
-  bottom: 3.3em;
+  bottom: 2.3em;
   left: 50%;
   transform: translateX(-52%);
   text-transform: uppercase;
