@@ -54,11 +54,6 @@ section{
   margin-bottom: 1.7rem;
 }
 
-/*.brief{
-	font-size: 1.5rem;
-	color: hsl(217, 19%, 35%);
-}*/
-
 h1{
 	font-size: 1.5rem;
 	color: hsl(217, 19%, 35%);
@@ -155,10 +150,6 @@ section > div{
 
 @media only screen and (min-width: 90em){
 
-	/*.brief{
-		font-size: 1.8vw;
-	}*/
-
 	h1{
 		font-size: 1.8vw;
 		margin-block: 0.1em;
@@ -184,10 +175,6 @@ section > div{
     	grid-template-rows: auto auto;
 	}
 
-	/*.brief{
-		font-size: 1.0625rem;
-	}
-*/
 	h1{
 		font-size: 1.0625rem;
 		margin-block: 0.1em;
@@ -229,9 +216,6 @@ section > div{
   	margin-bottom: 2.5rem;
 	}
 
-	/*.brief{
-		font-size: 1rem;
-	}*/
 
 	h1{
 		font-size: 1rem;
