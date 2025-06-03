@@ -62,6 +62,7 @@ section{
 section h1{
 	font-size: 1.5rem;
 	color: hsl(217, 19%, 35%);
+	margin-block: 0.1em;
 }
 
 .detail{
@@ -160,6 +161,7 @@ section > div{
 
 	section h1{
 		font-size: 1.8vw;
+		margin-block: 0.1em;
 	}
 
 	.detail{
@@ -188,6 +190,7 @@ section > div{
 */
 	section h1{
 		font-size: 1.0625rem;
+		margin-block: 0.1em;
 	}
 
 	.detail{
@@ -232,6 +235,7 @@ section > div{
 
 	section h1{
 		font-size: 1rem;
+		margin-block: 0.1em;
 	}
 
 	.detail{
